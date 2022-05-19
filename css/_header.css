@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  background-color: gray;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+div span {
+  color: yellow;
+  background-color: green;
+}
+div span:hover {
+  background-color: black;
+}
+
+.test {
+  background-color: blue;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.mixin {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: dimgrey;
+  user-select: none;
+  width: 500px;
+  height: 100px;
+  background-color: antiquewhite;
+  display: block;
+}
+.mixin:hover {
+  color: black;
+}

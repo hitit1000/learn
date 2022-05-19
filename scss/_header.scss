@@ -1,0 +1,30 @@
+@import "mixin";
+header {
+  width: 100%;
+  background-color: gray;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  span {
+    color: yellow;
+    background-color: green;
+    &:hover {
+      background-color: black;
+    }
+  }
+}
+
+.test {
+  background-color: blue;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.mixin {
+  @include large-text;
+  @include title-box(500px, 100px);
+  display: block;
+}

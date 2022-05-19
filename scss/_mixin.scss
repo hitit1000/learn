@@ -1,0 +1,18 @@
+@mixin large-text {
+  font: {
+    size: 22px;
+    weight: bold;
+    family: sans-serif;
+  }
+  color: dimgrey;
+  &:hover {
+    color: black;
+  }
+  user-select: none;
+}
+
+@mixin title-box($width: 100%, $height: 100px) {
+  width: $width;
+  height: $height;
+  background-color: antiquewhite;
+}
